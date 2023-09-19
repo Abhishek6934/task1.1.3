@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Page</title>
+    
+    
+    <style>
+        
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+
+    
+    <style>
+        
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Welcome to My HTML Page</h1>
+
+    
+    <img src="https://live.staticflickr.com/8009/7659259984_2cd5353cd4.jpg" alt="Description of the image" class="cebtered-image" style="display: block; margin: 0 auto;">
+
+    
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>abhishek sharma</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>devanshii</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" style="width: 100%;" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" style="width: 100%;" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" style="width: 100%;" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+
+    
+    <div>
+        <ul>
+            <li>my hobby: photography</li>
+            <li>favorote food: indian</li>
+        </ul>
+
+        <ol>
+            <li>all time favourite movies:</li>
+            <li>1. The Shawshank Redemption</li>
+            <li>2. Inception</li>
+            <li>3. The Dark Knight</li>
+        </ol>
+        
+        <a href="https://aniwatch.to/tv">Visit <aniwatch class="to"></aniwatch></a>
+
+        <p>in this website u can enjoy any anime ub want to watch.</p>
+    </div>
+</body>
+</html>
