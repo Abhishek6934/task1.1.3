@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Styling for Headings */
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Styling for Paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Styling for Links */
+a {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+/* Styling for Buttons */
+.button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
